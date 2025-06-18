@@ -31,7 +31,7 @@ describe("person", () => {
 	});
 
 	it("should return null when auth header is good", () => {
-		expect(getAPIKey(happyHeader)).toBe("testtt");
+		expect(getAPIKey(happyHeader)).toBe("test");
 	});
 });
 
